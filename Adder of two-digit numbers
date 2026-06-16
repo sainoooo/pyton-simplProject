@@ -1,0 +1,6 @@
+# Adder of two-digit numbers
+num = input("enter two digit num here : ")
+new_num0 = int(num[0])
+new_num1 = int(num[1])
+
+print(new_num0 + new_num1)
