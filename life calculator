@@ -1,7 +1,0 @@
-#how much of your life is left? lets see
-age = input("How old are you?")
-yearsLeft = 90-int(age)
-monthLeft = yearsLeft*12
-weakLeft = yearsLeft*52
-dayLeft = yearsLeft*365
-print(f"you have {yearsLeft} years left and {monthLeft} monthLeft and {weakLeft} weakLeft and {dayLeft} dayLeft\nenjoy!")
