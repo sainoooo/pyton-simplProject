@@ -1,9 +1,0 @@
-#WELCOM to tip calculator!!!!
-
-currency = input("What currency do you use?")
-total = float(input(f"What was the total bill? {currency} "))
-percentage = int(input("What percentage tip would you like to give? (pls just add numbr) "))
-pepole = int(input("How many pepole to split the bill? "))
-tip = float((((total +(percentage*total/100))/pepole)))
-finalBill = "{:.2f}" .format(tip)
-print(f"Each person should pay : {finalBill} {currency}")
